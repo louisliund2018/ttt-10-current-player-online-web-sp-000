@@ -16,8 +16,8 @@ def move(board, index, value = "X" or value = "O")
 end
 
 def turn_count
-  
-  
+
+
   counter = 0
   if board[index] == "X" or board[index] == "O"
     counter += 1
