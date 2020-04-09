@@ -11,8 +11,8 @@ def input_to_index(input)
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-def move(board, index, value)
-  board[index] = value
+def move(board, index, current_player)
+  board[index] = current_player
 end
 
 def turn_count(board)
