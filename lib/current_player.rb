@@ -1,7 +1,8 @@
 def turn_count
 
   counter = 0
-  if
+  if board[index] == "X" or board[index] == "O"
+    
     counter += 1
   end
 end
