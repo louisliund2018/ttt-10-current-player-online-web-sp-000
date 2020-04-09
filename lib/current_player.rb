@@ -2,7 +2,7 @@ def turn_count(board)
   board = ["X", " ", "O", " ", " ", " ", " ", " ", " "]
   board.each do |board|
     counter = 0
-    index = [X, O]
+    index = ["X", "O"]
     if board[index] == "X" or board[index] == "O"
       counter += 1
     else
