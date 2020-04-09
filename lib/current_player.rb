@@ -23,4 +23,3 @@ def turn_count
     nil
   end
 end
-
