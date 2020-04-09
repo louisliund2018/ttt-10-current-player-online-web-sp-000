@@ -3,7 +3,7 @@ def turn_count(board)
   board.each do |board|
     counter = 0
     index = ["X", "O"]
-    if board[index] == "X" or board[index] == "O"
+    if (board[index] == "X" or board[index] == "O")
       counter += 1
     else
       nil
