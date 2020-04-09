@@ -11,3 +11,11 @@ def turn_count(board)
     nil
   end
 end
+
+def current_player
+  if 
+    "X"
+  else
+    "O"
+  end
+end
