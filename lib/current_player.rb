@@ -7,6 +7,7 @@ def turn_count(board)
       nil
     end
   end
+  counter
 end
 
 def current_player(board)
