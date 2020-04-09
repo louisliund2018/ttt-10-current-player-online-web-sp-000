@@ -1,4 +1,9 @@
+def input_to_index(input)
+  input.to_i - 1
+end
+
 def turn_count(board)
+  input_to_index 
   index = [0, 1, 2, 3, 4, 5, 6, 7, 8]
   counter = 0
   if board[index] == "X" or board[index] == "O"
