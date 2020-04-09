@@ -3,6 +3,7 @@ def input_to_index(input)
 end
 
 def turn_count(board)
+  input = gets.string
   index = [0, 1, 2, 3, 4, 5, 6, 7, 8]
   input_to_index(input)
   counter = 0
