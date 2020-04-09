@@ -15,7 +15,7 @@ def move(board, index, value)
   board[index] = value
 end
 
-def turn_count
+def turn_count(board)
   counter = 0
   if board[index] == "X" or board[index] == "O"
     counter += 1
