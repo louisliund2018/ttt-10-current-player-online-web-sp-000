@@ -1,3 +1,7 @@
+def input_to_index(input)
+  input.to_i - 1
+end
+
 def turn_count(board)
   index = input_to_index
   counter = 0
